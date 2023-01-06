@@ -1,0 +1,14 @@
+.form {
+  float: left;
+  margin-top: 72px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $whiteColor;
+    margin-bottom: 20px;
+  }
+}

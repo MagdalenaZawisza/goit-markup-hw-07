@@ -1,0 +1,61 @@
+.team {
+  background-color: $backgrandColor;
+  text-align: center;
+  padding-bottom: 94px;
+
+  &__card {
+    background-color: $whiteColor;
+    box-shadow: $boxShadow;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: $textColor;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  &__job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: $paragraphColor;
+    margin-bottom: 16px;
+  }
+  &__box {
+    display: flex;
+    margin: 16px 32px 18px 32px;
+    gap: 10px;
+    list-style: none;
+  }
+
+  &__icon {
+    fill: $iconColor;
+
+    &:hover,
+    &:focus,
+    &:active {
+      cursor: pointer;
+      fill: $whiteColor;
+      border-radius: 50%;
+      background-color: $brandColor;
+    }
+  }
+}

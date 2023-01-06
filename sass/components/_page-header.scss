@@ -1,0 +1,28 @@
+.menu {
+  border: 1px solid $borderColor;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  &__icon {
+    vertical-align: middle;
+    fill: currentColor;
+    margin-right: 10px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      fill: $brandColor;
+    }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    justify-content: space-between;
+  }
+}

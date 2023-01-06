@@ -1,0 +1,24 @@
+.advantages {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  &__title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  &__text {
+    color: (--p-color);
+    line-height: 1.71;
+  }
+
+  &__icon {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: $backgrandColor;
+    border-radius: 4px;
+  }
+}

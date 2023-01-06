@@ -1,0 +1,44 @@
+.social-media {
+  float: left;
+  margin-top: 72px;
+  margin-right: 78px;
+
+  &__title {
+    font-family: $fontFamily;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $whiteColor;
+    margin-bottom: 20px;
+  }
+
+  &__box {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      cursor: pointer;
+      fill: $whiteColor;
+    }
+  }
+
+  &__icon {
+    fill: $whiteColor;
+    border-radius: 50%;
+    background-color: $backgrandIcon;
+    box-shadow: 0px 4px 4px $shadowColor;
+
+    &:hover,
+    &:focus,
+    &:active {
+      cursor: pointer;
+      background-color: $brandColor;
+    }
+  }
+}
