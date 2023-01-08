@@ -4,40 +4,30 @@
   margin-right: 78px;
 
   &__title {
-    font-family: $fontFamily;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    @extend %title;
     color: $whiteColor;
     margin-bottom: 20px;
   }
 
   &__box {
-    display: flex;
-    gap: 10px;
-    list-style: none;
+    @extend %box;
+    cursor: $cursor;
 
     &:hover,
     &:focus,
     &:active {
-      cursor: pointer;
       fill: $whiteColor;
     }
   }
 
   &__icon {
-    fill: $whiteColor;
-    border-radius: 50%;
-    background-color: $backgrandIcon;
+    @extend %icon;
+    cursor: $cursor;
     box-shadow: 0px 4px 4px $shadowColor;
 
     &:hover,
     &:focus,
     &:active {
-      cursor: pointer;
       background-color: $brandColor;
     }
   }

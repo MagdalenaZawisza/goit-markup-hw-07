@@ -1,6 +1,5 @@
 .tender {
-  letter-spacing: 0.03em;
-  font-weight: 700;
+  @extend %title;
   text-align: center;
 
   &__title {

@@ -32,7 +32,7 @@
     &:hover,
     &:focus {
       box-shadow: $boxShadowPortfolio;
-      cursor: pointer;
+      cursor: $cursor;
       transform: translate(0);
 
       .portfolio__overlay,
@@ -42,14 +42,13 @@
     }
   }
   &__name {
-    margin-top: 20px;
-    margin-bottom: 4px;
-    font-weight: 700;
+    @extend %title;
     font-size: 18px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
     color: $textColor;
     padding-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 4px;
   }
 
   &__job {

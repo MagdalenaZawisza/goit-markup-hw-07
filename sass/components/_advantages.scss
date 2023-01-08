@@ -1,11 +1,7 @@
 .advantages {
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  @extend %title;
 
   &__title {
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
     margin-bottom: 10px;
     padding: 0;
   }

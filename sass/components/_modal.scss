@@ -10,13 +10,10 @@
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &__title {
-    font-family: $fontFamily;
-    font-style: normal;
-    font-weight: 700;
+    @extend %title;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
-    letter-spacing: 0.03em;
     color: $textColor;
     margin-top: 40px;
     margin-bottom: 12px;
@@ -31,7 +28,7 @@
   }
 
   &__name {
-    font-family: "Roboto";
+    font-family: $fontFamily;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -119,7 +116,7 @@
       background: $whiteColor;
       border: 1px solid rgba(0, 0, 0, 0.1);
       border-radius: 50%;
-      cursor: pointer;
+      cursor: $cursor;
     }
   }
 

@@ -20,20 +20,16 @@
   }
 
   &__data {
+    @extend %title;
+    line-height: 1.71;
     text-decoration: none;
     color: $whiteColor;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     padding-top: 20px;
   }
 
   &__mail {
-    font-style: normal;
-    font-size: 14px;
+    @extend %title;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: $contactColor;
     text-decoration: none;
   }
