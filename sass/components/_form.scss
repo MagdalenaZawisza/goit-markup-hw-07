@@ -4,6 +4,7 @@
 
   &__title {
     @extend %title;
+    text-transform: uppercase;
     color: $whiteColor;
     margin-bottom: 20px;
   }

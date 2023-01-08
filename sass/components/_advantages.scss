@@ -1,6 +1,4 @@
 .advantages {
- 
-
   &__title {
     @extend %title;
     margin-bottom: 10px;
@@ -10,8 +8,8 @@
   &__text {
     color: $paragraphColor;
     font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
   }
 
   &__icon {
