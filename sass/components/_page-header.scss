@@ -3,6 +3,17 @@
   padding-top: 24px;
   padding-bottom: 25px;
 
+  &__page {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    justify-content: space-between;
+  }
+
   &__icon {
     vertical-align: middle;
     fill: currentColor;
@@ -18,12 +29,6 @@
   &__box {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    justify-content: space-between;
   }
 
   &__nav {
